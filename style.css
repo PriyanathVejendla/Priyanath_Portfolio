@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+}
+
+.personal_website-container{    
+    background: #eff4fd;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: goldenrod
+}
+
+.main-page{
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+.details{
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+
+.details_h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+span{
+    color: goldenrod;
+}
+
+.details-p{
+    color: #555;
+    line-height: 22px;
+    text-align: left;
+}
+
+.details-a{
+    background-color: #212121;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+           
+.img{
+    height: 500px;
+    width: 500px;
+    border-radius: 8px;
+    margin-left: 900px;
+    margin-top: 40px;
+}
+
+.button{
+    background-color: #212121;
+    padding: 3px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    border-radius: 5px;
+}
+
+.mySelf-container{
+    background: url("education-day-arrangement-table-with-copy-space.jpg");
+    background-size: cover;
+    width: 100vw;
+}
+
+.about-heading{
+    font-size: 200px;
+    color: black;
+    
+}
+
+.bg-para{
+    border-radius: 8px;
+    margin-left: 0px;
+    margin-right:0px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.span-about{
+    font-weight: bold;
+    text-decoration: underline;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.education-heading{
+    font-family: initial;
+    font-size: 35px;
+    color: #f9f2f2;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 700px;
+    margin-right: 700px;
+    padding: 10px;
+    text-align: left;
+}
+
+.about-para{
+    font-family: "Roboto";
+    font-size: 20px;
+    color: white;
+    padding: 30px;
+    margin: 30px;
+
+}
+
+.grad-head{
+    font-family: initial;
+    font-size: 25px;
+    color: #212121;
+}
+
+.span-ed{
+    font-family: initial;
+    font-style: bold;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.span-side{
+    font-weight: bold;
+    font-family: initial;
+    color: black;
+}
+
+.button-back{
+    background-color: #6a9865;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.skills-skill{
+    font-family: Gill Sans, sans-serif;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ 
+.body{
+    background: white;
+    text-transform: uppercase;
+}
+
+.h1-skills{
+    text-align: center;
+}
+
+.h3{
+    margin: 5px;
+}
+
+.skill{
+    width: 500px;
+    margin: 60px auto;
+    color: #333;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.skill li{
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.bar:hover{
+    box-shadow: 0 24px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)50%);
+}
+
+.html{
+    width: 90%;
+    animation: html 5s;
+}
+
+.css{
+    width: 90%;
+    animation: css 5s;
+}
+
+.bootstrap{
+    width: 80%;
+    animation: bootstrap 5s;
+}
+
+.python{
+    width: 75%;
+    animation: python 5s;
+}
+
+.javascript{
+    width: 65%;
+    animation: javascript 5s;
+}
+
+.sql{
+    width: 65%;
+    animation: sql 5s;
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes bootstrap{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+
+@keyframes sql{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+
+.button-skills{
+    background-color: #333;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.works-page-bg{
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    font-family: "Roboto";
+}
+
+.works-back-button{
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: "Roboto";
+    color: white;
+}
+
+.works-bb{
+    padding: 10px;
+    margin-top: 100px;
+}
+
+.contact-details-heading{
+    font-family: "Roboto";
+    font-size: 50px;
+    color: black;
+    text-decoration: underline;
+
+}
+
+.contact-para{
+    font-family: "Roboto";
+    font-size: 30px;
+    color: black;
+}
+
+.button-back-contact{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contact-container{
+    padding: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+}
